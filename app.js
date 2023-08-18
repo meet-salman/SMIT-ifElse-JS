@@ -44,16 +44,17 @@
 
 // let names = prompt("Name batao");
 // let age = +prompt("Ktny saal ke ho?");
-// let job = prompt("Job is Government OR Private?");
+// let job = prompt("Job Government hy?");
 // let salary = +prompt("Kamaty ktna ho?");
 // let bankBalance = +prompt("Bank Balance hy? ktna hy?");
-// let car = +prompt("Car kon c hy?");
+// let car = prompt("Car kon c hy?");
 // let habbit = prompt("Nasha to nhi krty?");
 
-// if (age >= 18 && age <= 21 && job === "Government" && salary >= 85000 && bankBalance >= 3000000 && car === "Civic" && habbit === "No") {
-//     console.log("Larka Acha hy.");
+// if (age >= 18 && age <= 21 && job == "Yes" && salary > 850 && bankBalance > 300 && car == "Civic" && habbit == "No") {
+//     console.log("Larka acha hy.");
+// }
 
-// } else {
+// else {
 //     console.log("Samajh mn nhi aaya.");
 // }
 
@@ -86,44 +87,12 @@
 
 
 
-// let myAge = +prompt("Enter Your Age");
-
-// if (myAge > 18 && myAge <= 27) {
-//     console.log("You Are Jawan");
-
-//     if (myAge > 27 && myAge <= 40) {
-//         console.log("You Are Mard");
-
-//     } else {
-//         console.log("You Are Buddha");
-//     }
-
-// } else {
-//     console.log("tere bas ka nhi");
-// }
-
-
-
-// let myAge = +prompt("Enter Your Age");
-
-// if (myAge >= 18 && myAge <= 27) {
-//     console.log("Aa gya tu jawan ho k.");
-
-//     if (myAge < 18) {
-//         console.log("Abhi ap choty ho.");
-//     }
-
-// } else {
-//     console.log("Mard Door rahen");
-// }
-
-
 
 // let force = "CID";
 
 // let kon = prompt("Ap kon ho?");
 
-// if (kon == force ) {
+// if (kon == force) {
 //     console.log("Bhaaaagooo!");
 
 // } else {
@@ -132,34 +101,56 @@
 
 
 
-let pehlaNumber = 12;
-let dusraNumber = 23;
-let operator = prompt("Enter Operator");
 
-
-if (operator === "+") {
-    let sum = pehlaNumber + dusraNumber;
-    console.log(sum);
-
-} else if (operator === "-") {
-    let sub = pehlaNumber - dusraNumber;
-    console.log(sub);
-
-} else if (operator === "*") {
-    let multiply = pehlaNumber * dusraNumber;
-    console.log(multiply);
-
-} else if (operator === "/") {
-    let divi = pehlaNumber / dusraNumber;
-    console.log(divi);
-}
-
-else {
-    console.log("Operator sahi dalo");
-}
+// let pehlaNumber = 12;
+// let dusraNumber = 23;
+// let operator = prompt("Enter Operator");
 
 
 
+
+// if (operator === "+") {
+//     let sum = pehlaNumber + dusraNumber;
+//     console.log(sum);
+
+// } else if (operator === "-") {
+//     let sub = pehlaNumber - dusraNumber;
+//     console.log(sub);
+
+// } else if (operator === "*") {
+//     let multiply = pehlaNumber * dusraNumber;
+//     console.log(multiply);
+
+// } else if (operator === "/") {
+//     let divi = pehlaNumber / dusraNumber;
+//     console.log(divi);
+// }
+
+// else {
+//     console.log("Operator sahi dalo");
+// }
+
+
+
+
+// let myAge = +prompt("Enter Your Age");
+
+// if (myAge <= 17) {
+//     console.log("Abhi Bache ho");
+
+// } else if (myAge >= 18 && myAge <= 27) {
+//     console.log("Aa gya tu jawan ho ke");
+
+// } else if (myAge > 27 && myAge <= 40) {
+//     console.log("Shaadi kr le bhai");
+
+// } else if (myAge > 40) {
+//     console.log("Baba g Allah Allah kro");
+// }
+
+// else {
+//     console.log("tere bas ka nhi");
+// }
 
 
 
