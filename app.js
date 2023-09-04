@@ -74,7 +74,7 @@
 
 
 
-// let hindsa1 = 17;
+// let hindsa1 = +prompt("Enter Number");
 
 // if (hindsa1 % 2 == 0) {
 //     console.log("Number is Even.");
@@ -88,9 +88,9 @@
 
 
 
-// let force = "CID";
+// let force = "CID".toLowerCase();
 
-// let kon = prompt("Ap kon ho?");
+// let kon = prompt("Ap kon ho?").toLowerCase();
 
 // if (kon == force) {
 //     console.log("Bhaaaagooo!");
@@ -102,8 +102,8 @@
 
 
 
-// let pehlaNumber = 12;
-// let dusraNumber = 23;
+// let pehlaNumber = +prompt("ENter First Number");
+// let dusraNumber = +prompt("ENter Second Number");
 // let operator = prompt("Enter Operator");
 
 
@@ -151,6 +151,192 @@
 // else {
 //     console.log("tere bas ka nhi");
 // }
+
+
+
+
+// Take 2 numbers input by user & show the result which number is greater OR both numbers are equal
+
+// const num1 = +prompt("Enter First Number");
+// const num2 = +prompt("Enter Second Number");
+// // const num3 = +prompt("Enter Third Number");
+
+
+// if (num1 > num2) {
+//     console.log(`${num1} is greater than ${num2}`);
+
+// }
+
+// else if (num2 > num1) {
+//     console.log(`${num2} is greater than ${num1}`);
+// }
+
+// else {
+//     console.log('Both numbers are equal');
+// }
+
+
+
+
+
+
+// Take 3 numbers input by user & show the result which number is greater
+
+
+// if (num1 > num2 && num1 > num3) {
+//     console.log(`${num1} is greater than ${num2} & ${num3}`);
+// }
+
+// else if (num2 > num1 && num2 > num3)
+//     console.log(`${num2} is greater than ${num1} & ${num3}`);
+
+// else {
+//     console.log(`${num3} is greater than ${num1} & ${num2}`);
+// }
+
+
+
+
+
+// Check the number is odd or even
+
+
+// if (num1 % 2 === 0) {
+//     console.log(`${num1} is Even`);
+// }
+
+// else {
+//     console.log(`${num1} is Odd`);
+// }
+
+
+
+// function isEvenOrOdd(number) {
+//     if (number % 2 === 0) {
+//         console.log("Number Is Even");
+//     } else {
+//         console.log("Number Is Odd");
+//     }
+// }
+
+// isEvenOrOdd(56);
+// isEvenOrOdd(107);
+
+
+
+
+
+// Check if a triangle is equilateral, scalene, or isosceles
+
+// const base = +prompt("Enter the vaue of Base");
+// const perp = +prompt("Enter the vaue of Perpendicular");
+// const hyp = +prompt("Enter the vaue of Hypotenuse");
+
+// if ((base == perp) && (base == hyp)) {
+//     console.log("Equilateral Triangle");
+// }
+
+// else if ((base == perp) || (perp == hyp)) {
+//     console.log("Isosceles Triangle");
+// }
+
+// else {
+//     console.log("Scalene Triangle");
+// }
+
+
+
+
+
+
+// Find the a number is present in given range
+
+
+// function checkInRange(num, start, end) {
+
+//     if (num >= start && num <= end) {
+//         console.log(`${num} lies in between ${start} & ${end}`);
+//     } else {
+//         console.log(`${num} is not in between ${start} & ${end}`);
+//     }
+// }
+
+// checkInRange(+prompt("Enter a number is present in given range"), +prompt("Enter starting number"), +prompt("Enter Ending number"))
+
+
+
+// const input = prompt('Enter value');
+
+// if ((input >= "a" && input <= "z") || (input >= "A" && input <= "Z")) {
+//     console.log(`${input} is an Alphabet`)
+// }
+
+// else if (input >= 0 || input <= 0) {
+//     console.log(`${input} is a number`);
+// }
+
+// else {
+//     console.log("Invalid Value");
+// }
+
+
+
+
+
+// if (input == "A" || input == "a" || input == "E" || input == "e" || input == "I" || input == "i" || input == "O" || input == "o" || input == "U" || input == "u") {
+
+//     console.log(`${input} is Vovel`);
+// }
+
+// else{
+//     console.log(`${input} is Consonant`);
+// }
+
+
+
+
+
+// if (input >= "A" && input <= "Z") {
+//     console.log(`${input} is in Upper Case`);
+// }
+
+// else if (input >= "a" && input <= "z"){
+//     console.log(`${input} is in Lower Case`);
+// }
+
+// else{
+//     console.log(`${input} is not an alphabet`);
+// }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
